@@ -1,0 +1,22 @@
+.bg-reviews {
+    background: #fff0f3;
+}
+
+h2 {
+    font-family: 'Roboto',sans-serif, bold;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.reviews {
+    display: flex;
+}
+
+.news {
+    display: flex;
+}
+
+.data-news {
+    display: flex;
+}
+

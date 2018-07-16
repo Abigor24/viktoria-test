@@ -1,0 +1,149 @@
+h1 {
+    font-family: 'Pattaya',sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.flowers-container {
+    display: block;
+    justify-content: center;
+}
+
+.collection-peoducts {
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+.autumn {
+    display: flex;
+    background: #ffffff;
+    width: 337px;
+}
+
+.flowers-text {
+    margin-left: 20px;
+}
+
+.flowers-p {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.flowers-h {
+    padding-left: 15px;
+    font-family: 'Pattaya',sans-serif;
+}
+
+.img_product_container {
+    justify-content: center;
+    display: flex;
+     vertical-align: middle;
+     -webkit-transition-duration: 2s;
+     -moz-transition-duration: 2s;
+     -o-transition-duration: 2s;
+     transition-duration: 2s;
+}
+
+.bg-productions {
+    background: url("../images/bg/bg.png");
+    height: 100vh;
+    padding: 0;
+    background-size: cover;
+}
+
+.text-production {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.production-vector {
+    font-size: 229px;
+    justify-content: center;
+    width: 133px;
+    height: auto;
+}
+
+@media (max-height: 600px) {
+    .img_product_container {
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+}
+
+@media (max-height: 600px) {
+    .collection-peoducts {
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+}
+
+
+.row {
+    flex-wrap: nowrap
+}
+
+img {
+height: auto;
+max-width: 100%;
+}
+
+.content{
+margin-top: 50px;
+}
+
+.product {
+background: #fff none repeat scroll 0 0;
+border: 1px solid #c0c0c0;
+height: 390px;
+overflow: hidden;
+padding: 25px 15px;
+position: relative;
+text-align: center;
+transition: all 0.5s ease 0s;
+margin-bottom: 20px;
+}
+
+.product:hover {
+box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.product-img {
+height: 200px;
+}
+
+.product-title a {
+color: #000;
+font-weight: 500;
+text-transform: uppercase;
+}
+
+.product-desc {
+max-height: 60px;
+overflow: hidden;
+}
+
+.product-price {
+bottom: 15px;
+left: 0;
+position: absolute;
+width: 100%;
+color: #d51e08;
+font-size: 18px;
+font-weight: 500;
+}

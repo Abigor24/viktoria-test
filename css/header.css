@@ -1,0 +1,137 @@
+.container-header {
+    justify-content: center;
+}
+
+.bg_container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.41) 0%, rgba(0, 0, 0, 0.23) 100%),
+    url("../images/bg-img.png");
+    height: 100vh;
+    padding: 0;
+    background-size: cover;
+}
+
+.launch {
+    text-decoration: underline;
+    padding-left: 25px;
+}
+
+.navbar-nav {
+    padding-top: 15px;
+    color: white;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-text {
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+.nav-text:hover { 
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    border-bottom: 2px solid #ca002f;
+    border-top: 0;
+}
+
+.bg-light {
+    color: white;
+}
+
+.disabled {
+    text-transform: none;
+    border-bottom: 2px solid red;
+}
+
+.collapse {
+    text-transform: uppercase;
+}
+
+.nav-phone {
+    padding-left: 50px;
+}
+
+
+.feedback {
+color: #fff;
+font-family: Roboto-Regular;
+font-size: 13px;
+border: 2px solid #ca002f;
+transition: .4s;
+height: 50%;
+margin-left: 40px;
+padding: 2px 6px 2px 6px;
+cursor: pointer;
+}
+
+.feedback:hover {
+    background-color: #ca002f;
+    text-decoration: none;
+}
+
+.container-order {
+    text-align: center;
+    display: block;
+}
+
+.self-sewing {
+    justify-content: center;
+    color: white;
+    padding-top: 75px;
+}
+
+.self {
+    font-family: 'Pattaya',sans-serif;
+    font-size: 48px;
+}
+
+.short-description {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.block-button-red {
+    color: white;
+    background: #ca002f;
+    padding: 10px 15px 10px 15px;
+}
+
+.border {
+    padding: 10px 15px 10px 15px;
+}
+
+.text-white:hover {
+    text-decoration: none;
+
+}
+
+.row {
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.container-info {
+    padding-top: 75px;
+    justify-content: center;
+    display: flex;
+}
+
+.info-blog {
+    display: flex;
+    color: white;
+}
+
+
+.text-diamond {
+    margin-left: 20px;
+}
+
+.descriptoin-info {
+    font-size: 15px;
+}
